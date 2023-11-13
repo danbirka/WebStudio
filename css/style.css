@@ -1,7 +1,51 @@
 :root {
- --link-color:#2196F3;
- --title-color: #212121;
- --text-color: #757575;
- --main-background-color: #FFFFFF;
+    --link-color: #2196F3;
+    --title-color: #212121;
+    --main--text-color: #757575;
+    --main-background-color: #FFFFFF;
 }
-    
+
+body {
+    font-family: Roboto;
+}
+
+.header {}
+
+.header__logo {
+    color: #000;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.78px;
+}
+
+.header__logo__colored {}
+
+.header__nav {}
+
+.header__list {}
+
+.header__item {}
+
+.header__nav__link {
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.header__contact__list {}
+
+.header__contact__item {}
+
+.header__contact__link {
+    color: #757575;
+
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+}
