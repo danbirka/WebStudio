@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {}
@@ -22,7 +22,9 @@ body {
     letter-spacing: 0.78px;
 }
 
-.header__logo__colored {}
+.header__logo__colored {
+    color: #2196F3;
+}
 
 .header__nav {}
 
