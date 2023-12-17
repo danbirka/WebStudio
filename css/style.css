@@ -1,3 +1,10 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;    
+    outline: solid 1px red;
+    }
+
 :root {
     --link-color: #2196F3;
     --title-color: #212121;
@@ -30,7 +37,9 @@ body {
 
 .header__list {}
 
-.header__item {}
+.header__item {
+    margin-bottom: 32px;
+}
 
 .header__nav__link {
     color: var(--title-color);
@@ -41,7 +50,9 @@ body {
 
 .header__contact__list {}
 
-.header__contact__item {}
+.header__contact__item {
+    margin-bottom: 32px;
+}
 
 .header__contact__link {
     color: #757575;
@@ -66,6 +77,7 @@ body {
     line-height: 136.364%;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .hero__section__button {
