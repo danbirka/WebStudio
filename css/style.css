@@ -26,6 +26,10 @@ body {
 
 .header {}
 
+.header .container {
+    display: flex;
+
+}
 
 .header__logo {
     color: #000;
@@ -36,15 +40,22 @@ body {
     font-weight: 700;
 
     letter-spacing: 0.78px;
+    margin-right: 93px;
 }
 
 .header__logo__colored {
     color: #2196F3;
+
 }
 
-.header__nav {}
+.header__nav {
+    margin-right: 344px;
+}
 
-.header__list {}
+.header__list {
+    display: flex;
+    gap: 50px;
+}
 
 .header__item {
     margin-bottom: 32px;
@@ -57,7 +68,10 @@ body {
     letter-spacing: 0.28px;
 }
 
-.header__contact__list {}
+.header__contact__list {
+    display: flex;
+    gap: 50px;
+}
 
 .header__contact__item {
     margin-bottom: 32px;
