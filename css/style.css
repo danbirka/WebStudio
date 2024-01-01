@@ -13,7 +13,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: solid 1px red;
+ 
 }
 
 .section {
@@ -100,7 +100,8 @@ body {
     line-height: 136.364%;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    padding-top: 200px;
 }
 
 .hero__section__button {
@@ -119,6 +120,8 @@ body {
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: block;
+    margin: 0 auto;
 }
 
 /* advantages__section */
@@ -161,7 +164,9 @@ body {
     letter-spacing: 1.08px;
 }
 
-.works__section__list {}
+.works__section__list {
+    display: flex;
+}
 
 .works__section__item {}
 
