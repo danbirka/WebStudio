@@ -258,7 +258,9 @@ body {
 
 .project__buttons {}
 
-.project__buttons__list {}
+.project__buttons__list {
+display: flex;
+}
 
 .project__buttons__item {}
 
