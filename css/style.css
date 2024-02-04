@@ -138,6 +138,7 @@ body {
 .advantages__section__list {
     display: flex;
     gap: 30px;
+    padding-bottom: 30px;
 }
 
 .advantages__section__item::before {
