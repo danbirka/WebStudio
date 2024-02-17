@@ -97,7 +97,7 @@ body {
 /* hero */
 
 .hero__section {
-    background-image: url(../images/hero/Img.png);
+    background-image: url(../images/hero/Img.jpg);
     height: 600px;
 }
 
@@ -158,22 +158,22 @@ body {
     background-color: #F5F4FA;
 }
 .advantages__section__item:nth-child(1)::before{
-    background-image: url(../images/advantages/antenna.png);
+    background-image: url(../images/advantages/antenna.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 .advantages__section__item:nth-child(2)::before{
-    background-image: url(../images/advantages/clock.png);
+    background-image: url(../images/advantages/clock.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 .advantages__section__item:nth-child(3)::before{
-    background-image: url(../images/advantages/diagram.png);
+    background-image: url(../images/advantages/diagram.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 .advantages__section__item:nth-child(4)::before{
-    background-image: url(../images/advantages/astronaut.png);
+    background-image: url(../images/advantages/astronaut.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -247,6 +247,11 @@ body {
 .team__section__item {
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
+   
+}
+
+.team__section__item:hover,
+.team__section__item:focus {
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -325,7 +330,6 @@ body {
 .project__buttons {
     margin-top: 94px;
     margin-bottom: 50px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .project__buttons__list {
@@ -335,6 +339,11 @@ body {
 }
 
 .project__buttons__item {}
+
+.project__buttons__item:hover,
+.project__buttons__item:focus {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
 
 .project__button {
     width: 103px;
@@ -380,6 +389,11 @@ body {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 3 * 30px) / 3);
+ 
+}
+
+.projects__list__item:hover,
+.projects__list__item:focus {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
