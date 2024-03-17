@@ -158,22 +158,22 @@ body {
     background-color: #F5F4FA;
 }
 .advantages__section__item:nth-child(1)::before{
-    background-image: url(../images/advantages/antenna.jpg);
+    background-image: url(../images/advantages/antenna.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .advantages__section__item:nth-child(2)::before{
-    background-image: url(../images/advantages/clock.jpg);
+    background-image: url(../images/advantages/clock.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .advantages__section__item:nth-child(3)::before{
-    background-image: url(../images/advantages/diagram.jpg);
+    background-image: url(../images/advantages/diagram.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .advantages__section__item:nth-child(4)::before{
-    background-image: url(../images/advantages/astronaut.jpg);
+    background-image: url(../images/advantages/astronaut.png);
     background-repeat: no-repeat;
     background-position: center;
 }
