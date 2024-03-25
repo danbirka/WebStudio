@@ -247,12 +247,12 @@ body {
 .team__section__item {
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
-   
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .team__section__item:hover,
 .team__section__item:focus {
-    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+   
 }
 
 .team__section__img {}
