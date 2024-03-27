@@ -59,8 +59,16 @@ body {
     align-items: center;
 }
 
-.header__item {
+.header__item {}
 
+.envelope__icon {
+    width: 16px;
+    height: 12px;
+}
+
+.smartphone__icon {
+    width: 10px;
+    height: 16px;
 }
 
 .header__nav__link {
@@ -102,8 +110,8 @@ body {
 }
 
 
-  
- 
+
+
 
 
 .hero__section__title {
@@ -138,7 +146,7 @@ body {
     display: block;
     margin: 0 auto;
 
-    
+
 }
 
 /* advantages__section */
@@ -157,22 +165,26 @@ body {
     height: 120px;
     background-color: #F5F4FA;
 }
-.advantages__section__item:nth-child(1)::before{
+
+.advantages__section__item:nth-child(1)::before {
     background-image: url(../images/advantages/antenna.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-.advantages__section__item:nth-child(2)::before{
+
+.advantages__section__item:nth-child(2)::before {
     background-image: url(../images/advantages/clock.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-.advantages__section__item:nth-child(3)::before{
+
+.advantages__section__item:nth-child(3)::before {
     background-image: url(../images/advantages/diagram.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-.advantages__section__item:nth-child(4)::before{
+
+.advantages__section__item:nth-child(4)::before {
     background-image: url(../images/advantages/astronaut.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -252,9 +264,7 @@ body {
 }
 
 .team__section__item:hover,
-.team__section__item:focus {
-   
-}
+.team__section__item:focus {}
 
 .team__section__img {}
 
@@ -390,7 +400,7 @@ body {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 3 * 30px) / 3);
- 
+
 }
 
 .projects__list__item:hover,
