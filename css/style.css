@@ -76,7 +76,7 @@ body {
 .header__contact__list {
     display: flex;
     gap: 30px;
- 
+
 }
 
 .header__contact__item {}
@@ -259,6 +259,35 @@ body {
     margin-bottom: 50px;
 }
 
+.team__social__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team__social__item {}
+
+.team__social__link {
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+}
+
+.team__social__icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.team__social__icon:hover,
+.team__social__icon:focus {
+
+    fill: #2196F3;
+}
+
+
+
 .team__section__list {
     display: flex;
     gap: 30px;
@@ -302,7 +331,7 @@ body {
 }
 
 .clients {
- padding-top: 94px;
+    padding-top: 94px;
 }
 
 .clients__title {
@@ -317,9 +346,9 @@ body {
 
 .clients__list {
     display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .clients__item {
@@ -327,6 +356,7 @@ body {
     border: 1px solid #AFB1B8;
     padding: 16px 32px;
 }
+
 .clients__item:hover,
 .clients__item:focus {
     border: 1px solid #2196F3;
@@ -334,18 +364,16 @@ body {
 
 .clients__item:hover .clients__icon,
 .clients__item:focus .clients__icon {
- fill: #2196F3; 
+    fill: #2196F3;
 
 }
 
-.clients__item__list-link {
-
-}
+.clients__item__list-link {}
 
 .clients__icon {
     width: 106px;
     height: 60px;
-  fill: #AFB1B8;
+    fill: #AFB1B8;
 }
 
 .footer {
