@@ -278,6 +278,8 @@ body {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    margin-top: 28px;
+    margin-bottom: 42px;
 }
 
 .team__social__icon:hover,
@@ -305,7 +307,8 @@ body {
 .team__section__img {}
 
 .team__section__item-footer {
-    padding: 30px 0px;
+    padding: 0px;
+
 }
 
 .team__section__name {
@@ -319,6 +322,7 @@ body {
 
     letter-spacing: 0.48px;
     margin-bottom: 10px;
+
 }
 
 .team__section__text {
@@ -416,6 +420,34 @@ body {
 .footer__link--adress {
     color: #FFF;
 
+}
+
+.footer__icons__title {
+    color: #FFF;
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.footer__icons__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer__icons__item {
+ 
+}
+
+.footer__icons__link {}
+
+.footer__social__icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
 }
 
 /* portfolio */
