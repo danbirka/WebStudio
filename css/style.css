@@ -396,6 +396,11 @@ body {
     padding: 60px 0px;
 }
 
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer__logo {
     color: #2196F3;
 
@@ -445,7 +450,7 @@ body {
 .footer__icons__list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 10px;
 }
 
